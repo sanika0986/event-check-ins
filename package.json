@@ -1,0 +1,13 @@
+{
+  "name": "eventcheck",
+  "version": "1.0.0",
+  "description": "EventCheck — QR Code Event Registration & Check-in System",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node scripts/e2e.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "license": "MIT"
+}
